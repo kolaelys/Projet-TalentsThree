@@ -16,7 +16,7 @@ $(document).ready(function() {
       console.log(data);
       var cy = cytoscape({
         container: document.getElementById("cy")
-      });
+      })
       data.forEach(function(data,i) {
         var name = data.title;
         console.log(name, i);
